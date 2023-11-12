@@ -147,7 +147,8 @@ function App() {
                     </div>
                     <div>
                     <p>
-                      {/* mdでかけると嬉しい */}
+                      2023/08 ニフティ株式会社インターン3days in 東京<br/>
+                      2022/09 株式会社インターフェースインターン3days in 広島
                     </p>
                     </div>
                 </div>
@@ -173,8 +174,13 @@ function App() {
                     <h2 className="text-gray-900 text-lg font-medium">アカウント</h2>
                     </div>
                     <div>
-                    <p>
-                    </p>
+                      <p>
+                      Twitter(𝕏) : <a href= "https://twitter.com/cheru__jp" className="text-blue-400 hover:text-orange-500 duration-300">@cheru__jp</a><br/>
+                      Discord : cheru<br/>
+                      Github : <a href= "https://github.com/CHERU333" className="text-blue-400 hover:text-orange-500 duration-300">@CHERU333</a><br/>
+                      Zenn : <a href= "https://zenn.dev/cheru" className="text-blue-400 hover:text-orange-500 duration-300">@cheru</a><br/>
+                      Email : pi@cheru.jp
+                      </p>
                     </div>
                 </div>
               </div>
