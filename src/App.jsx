@@ -12,6 +12,7 @@ function App() {
           </a>
           <nav className="md:ml-auto text-base">
             <a herf="#AboutMe" className="mr-5 hover:text-blue-400 duration-300">About me</a>
+            <a href= "https://scrapbox.io/cheru" className="mr-5 hover:text-orange-500 duration-300">Blog</a>
           </nav>
         </div>
       </header>
@@ -28,7 +29,7 @@ function App() {
               Each account, technical blogs, etc.
             </p>
 {/* contactボタンからメールを送れるようにする */}
-            <button className="text-white bg-green-500 py-2 px-6 border-0 rounded text-lg hover:bg-green-600 duration:300">Contact</button>   
+            <button className="text-white bg-green-500 py-2 px-6 border-0 rounded text-lg hover:bg-green-600 duration:300"><a href="mailto:pi@cheru.jp?subject=お問い合わせ">Contact</a></button>   
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 ml-auto">
             <img src="./img/icon.jpeg" alt="cheru-icon" className="rounded-full"/>
@@ -239,7 +240,7 @@ function App() {
                       Discord : cherujp<br/>
                       Github : <a href= "https://github.com/CHERU333" className="text-blue-400 hover:text-orange-500 duration-300">@CHERU333</a><br/>
                       Zenn : <a href= "https://zenn.dev/cheru" className="text-blue-400 hover:text-orange-500 duration-300">@cheru</a><br/>
-                      Email : pi@cheru.jp
+                      Email : <a href="mailto:pi@cheru.jp?subject=お問い合わせ" className="text-blue-400 hover:text-orange-500 duration-300">pi@cheru.jp</a>
                       </p>
                     </div>
                 </div>
