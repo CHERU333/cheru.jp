@@ -25,7 +25,7 @@ function App() {
             </h1>
             <p className="mt-8 mb-8 leading-relaxed">
               Site for girl who like computers a little bit.<br/>
-              Includes skills, each account, technical and hobby blogs, etc.
+              Each account, technical blogs, etc.
             </p>
 {/* contactボタンからメールを送れるようにする */}
             <button className="text-white bg-green-500 py-2 px-6 border-0 rounded text-lg hover:bg-green-600 duration:300">Contact</button>   
@@ -42,7 +42,11 @@ function App() {
           <div className="text-center mb-20">
             <h1 className="text-2x; sm:text-3xl font-medium mb-2 text-gray-900">About Me</h1>
               <p className="pb-2">
-                cheru's profile
+                cheru's profile<br/>
+                <br/>
+                趣味はカラオケ, ゲーム, アニメなどです<br/>
+                ちいかわのモモンガが机の上に何匹か居ます<br/>
+                最近はreact appにお熱
               </p>
           </div>
           <div>
@@ -79,22 +83,58 @@ function App() {
                     <p>
                       広島市立大学 情報科学部 (2020/04~)<br/>
                       <br/>
-                      学科/研究室<br/>
+                      《学科/研究室》<br/>
                       情報工学科 (2021/04~)<br/>
                       ネットワーク科学研究室 (2022/09~)<br/>
                       ※コミュニケーション講座ネットワーク科学グループに変更(2023/04~)<br/>
                       <br/>
-                      サークル/クラブ<br/>
+                      《サークル/クラブ》<br/>
                       広島市立大学吹奏楽部 (2020/09~2022/12)<br/>
-                      (パート：打楽器,吹奏楽部部長(2021/11~2022/10))<br/>
-                      天地創造部 (2020/01~2020/03,2022/11~)<br/>
+                      (パート：打楽器, 吹奏楽部部長(2021/11~2022/10))<br/>
+                      天地創造部 (2021/01~2021/03,2022/11~)<br/>
                       いちぴろ・エクスプローラー(技術系サークル) (2023/11~)
                     </p>
                     </div>
                 </div>
               </div>
-              {/* 経歴 */}
+              {/* 布教 */}
               <div className="md:w-1/2 p-4">
+                <div className="bg-gray-200 rouded-lg p-8">
+                  <div className="flex items-center mb-3">
+                    <div className="bg-green-500 text-white rounded-full w-8 h-8 flex justify-center items-center mr-3">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12.0122 5.57169L10.9252 4.48469C8.77734 2.33681 5.29493 2.33681 3.14705 4.48469C0.999162 6.63258 0.999162 10.115 3.14705 12.2629L11.9859 21.1017L11.9877 21.0999L12.014 21.1262L20.8528 12.2874C23.0007 10.1395 23.0007 6.65711 20.8528 4.50923C18.705 2.36134 15.2226 2.36134 13.0747 4.50923L12.0122 5.57169ZM11.9877 18.2715L16.9239 13.3352L18.3747 11.9342L18.3762 11.9356L19.4386 10.8732C20.8055 9.50635 20.8055 7.29028 19.4386 5.92344C18.0718 4.55661 15.8557 4.55661 14.4889 5.92344L12.0133 8.39904L12.006 8.3918L12.005 8.39287L9.51101 5.89891C8.14417 4.53207 5.92809 4.53207 4.56126 5.89891C3.19442 7.26574 3.19442 9.48182 4.56126 10.8487L7.10068 13.3881L7.10248 13.3863L11.9877 18.2715Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                    </div>
+                    <h2 className="text-gray-900 text-lg font-medium">布教</h2>
+                    </div>
+                    <div>
+                    <p>
+                      お気に入りのプレイリスト<br/>
+                      <a href= "https://open.spotify.com/playlist/2BSt2NfYlbVjh3jcnwUlG4?si=233063d3811e4242" className="text-blue-400 hover:text-orange-500 duration-300">おすすめKPOP</a><br/>
+                      <a href= "https://open.spotify.com/playlist/5llz3esepHBV8UKizRIAdz?si=dd82e53a621a497f" className="text-blue-400 hover:text-orange-500 duration-300">今月のお気に入り</a><br/>
+                      <br/>
+                      推しアニメ<br/>
+                      <a href= "https://revuestarlight.com/animation/tv/" className="text-blue-400 hover:text-orange-500 duration-300">少女☆歌劇 レヴュースタァライト</a><br/>
+                      <a href= "https://onimai.jp/" className="text-blue-400 hover:text-orange-500 duration-300">お兄ちゃんはおしまい！</a><br/>
+                      アニメは <a href= "https://annict.com/@Ri_kokko3" className="text-blue-400 hover:text-orange-500 duration-300">annict</a> に記録しています<br/>
+                    </p>
+                    </div>
+                </div>
+              </div>
+              {/* 経歴 */}
+              <div className="md:w-1/4 p-4">
                 <div className="bg-gray-200 rouded-lg p-8">
                   <div className="flex items-center mb-3">
                     <div className="bg-green-500 text-white rounded-full w-8 h-8 flex justify-center items-center mr-3">
@@ -125,15 +165,18 @@ function App() {
                     </div>
                     <div>
                     <p>
-                      安田女子中学高等学校 普通科 (2017/4 - 2020/3)<br/>
-                      広島市立牛田中学校 (2014/4 - 2017/3)<br/>
+                      高校<br/>
+                      安田女子中学高等学校 普通科<br/>
+                      (2017/4 - 2020/3)<br/>
+                      <br/>
+                      中学<br/>
                         吹奏楽部 (2014/4 - 2016/8)
                     </p>
                     </div>
                 </div>
               </div>
               {/* 参加歴 */}
-              <div className="md:w-1/2 p-4">
+              <div className="md:w-1/4 p-4">
                 <div className="bg-gray-200 rouded-lg p-8">
                   <div className="flex items-center mb-3">
                     <div className="bg-green-500 text-white rounded-full w-8 h-8 flex justify-center items-center mr-3">
@@ -160,15 +203,18 @@ function App() {
                     </div>
                     <div>
                     <p>
-                      ニフティ株式会社インターン3days in 東京 (2023/08)<br/>
-                      株式会社インターフェースインターン3days in 広島 (2022/09)<br/>
+                      ニフティ株式会社インターン3days<br/>
+                      (2023/08)<br/>
+                      株式会社インターフェースインターン3days<br/>
+                      (2022/09)<br/>
                       広島地域IPv6推進委員会 IPv6勉強会
+                      (now)
                     </p>
                     </div>
                 </div>
               </div>
               {/* アカウント */}
-              <div className="md:w-1/2 p-4">
+              <div className="md:w-1/4 p-4">
                 <div className="bg-gray-200 rouded-lg p-8">
                   <div className="flex items-center mb-3">
                     <div className="bg-green-500 text-white rounded-full w-8 h-8 flex justify-center items-center mr-3">
@@ -190,7 +236,7 @@ function App() {
                     <div>
                       <p>
                       Twitter(𝕏) : <a href= "https://twitter.com/cheru__jp" className="text-blue-400 hover:text-orange-500 duration-300">@cheru__jp</a><br/>
-                      Discord : cheru<br/>
+                      Discord : cherujp<br/>
                       Github : <a href= "https://github.com/CHERU333" className="text-blue-400 hover:text-orange-500 duration-300">@CHERU333</a><br/>
                       Zenn : <a href= "https://zenn.dev/cheru" className="text-blue-400 hover:text-orange-500 duration-300">@cheru</a><br/>
                       Email : pi@cheru.jp
@@ -199,7 +245,7 @@ function App() {
                 </div>
               </div>
               {/* 資格 */}
-              <div className="md:w-1/2 p-4">
+              <div className="md:w-1/4 p-4">
                 <div className="bg-gray-200 rouded-lg p-8">
                   <div className="flex items-center mb-3">
                     <div className="bg-green-500 text-white rounded-full w-8 h-8 flex justify-center items-center mr-3">
@@ -226,37 +272,10 @@ function App() {
                     </div>
                     <div>
                     <p>
-                      全国珠算教育連盟珠算検定1級合格(2014/06)<br/>
-                      普通自動車第一種運転免許（AT限定）(2022/04)
-                    </p>
-                    </div>
-                </div>
-              </div>
-              {/* 布教 */}
-              <div className="md:w-1/2 p-4">
-                <div className="bg-gray-200 rouded-lg p-8">
-                  <div className="flex items-center mb-3">
-                    <div className="bg-green-500 text-white rounded-full w-8 h-8 flex justify-center items-center mr-3">
-                    <svg
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M12.0122 5.57169L10.9252 4.48469C8.77734 2.33681 5.29493 2.33681 3.14705 4.48469C0.999162 6.63258 0.999162 10.115 3.14705 12.2629L11.9859 21.1017L11.9877 21.0999L12.014 21.1262L20.8528 12.2874C23.0007 10.1395 23.0007 6.65711 20.8528 4.50923C18.705 2.36134 15.2226 2.36134 13.0747 4.50923L12.0122 5.57169ZM11.9877 18.2715L16.9239 13.3352L18.3747 11.9342L18.3762 11.9356L19.4386 10.8732C20.8055 9.50635 20.8055 7.29028 19.4386 5.92344C18.0718 4.55661 15.8557 4.55661 14.4889 5.92344L12.0133 8.39904L12.006 8.3918L12.005 8.39287L9.51101 5.89891C8.14417 4.53207 5.92809 4.53207 4.56126 5.89891C3.19442 7.26574 3.19442 9.48182 4.56126 10.8487L7.10068 13.3881L7.10248 13.3863L11.9877 18.2715Z"
-                        fill="currentColor"
-                      />
-                    </svg>
-                    </div>
-                    <h2 className="text-gray-900 text-lg font-medium">布教</h2>
-                    </div>
-                    <div>
-                    <p>
-                      {/* mdでかけると嬉しい */}
+                      全国珠算教育連盟珠算検定1級合格<br/>
+                      (2014/06)<br/>
+                      普通自動車第一種運転免許(AT限定)<br/>
+                      (2022/04)
                     </p>
                     </div>
                 </div>
