@@ -11,8 +11,8 @@ function App() {
             <img src="./img/cheru__jp.png" alt="cheru.jp"/>
           </a>
           <nav className="md:ml-auto text-base">
-            <a herf="#AboutMe" className="mr-5 hover:text-blue-400 duration-300">About me</a>
-            <a href= "https://scrapbox.io/cheru" className="mr-5 hover:text-orange-500 duration-300">Blog</a>
+            <a href= "https://note.com/cheru__jp/" className="mr-5 hover:text-orange-500 duration-300">Hobby Blog</a>
+            <a href= "https://zenn.dev/cheru" className="mr-5 hover:text-orange-500 duration-300">Tech Blog</a>
           </nav>
         </div>
       </header>
@@ -38,7 +38,7 @@ function App() {
       </section>
 
 {/* about me */}
-      <section id="AboutMe">
+      <section>
         <div className="container px-5 py-24 mx-auto">
           <div className="text-center mb-20">
             <h1 className="text-2x; sm:text-3xl font-medium mb-2 text-gray-900">About Me</h1>
