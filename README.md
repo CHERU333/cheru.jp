@@ -1,3 +1,3 @@
-# cherujp.github.io
-cheruのページ
+# cheru.jp
+cheruのページ<br/>
 https://cheru.jp
