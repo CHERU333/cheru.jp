@@ -25,8 +25,8 @@ function App() {
               Hi!  I'm cheru.
             </h1>
             <p className="mt-8 mb-8 leading-relaxed">
-              Site for girl who like computers a little bit.<br/>
-              Each account, technical blogs, etc.
+              パソコンカタカタ大学生のwebページです。<br/>
+              プロフィールや各種アカウントやブログを載せてます。
             </p>
 {/* contactボタンからメールを送れるようにする */}
             <button className="text-white bg-green-500 py-2 px-6 border-0 rounded text-lg hover:bg-green-600 duration:300"><a href="mailto:pi@cheru.jp?subject=お問い合わせ">Contact</a></button>   
