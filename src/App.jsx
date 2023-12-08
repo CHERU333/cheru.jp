@@ -195,7 +195,7 @@ function App() {
                     <div>
                       <p>
                       Twitter(𝕏) : <a href= "https://twitter.com/cheru__jp" className="text-blue-400 hover:text-orange-500 duration-300">@cheru__jp</a><br/>
-                      Discord : cherujp<br/>
+                      Discord : cheru_jp<br/>
                       Github : <a href= "https://github.com/CHERU333" className="text-blue-400 hover:text-orange-500 duration-300">@CHERU333</a><br/>
                       Zenn : <a href= "https://zenn.dev/cheru" className="text-blue-400 hover:text-orange-500 duration-300">@cheru</a><br/>
                       Email : <a href="mailto:pi@cheru.jp?subject=お問い合わせ" className="text-blue-400 hover:text-orange-500 duration-300">pi@cheru.jp</a>
