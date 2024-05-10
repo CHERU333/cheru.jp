@@ -25,8 +25,7 @@ function App() {
               Hi!  I'm cheru.
             </h1>
             <p className="mt-8 mb-8 leading-relaxed">
-              パソコンカタカタ大学生のwebページです。<br/>
-              プロフィールや各種アカウントやブログを載せてます。
+              大学院生になりました<br/>
             </p>
 {/* contactボタンからメールを送れるようにする */}
             <button className="text-white bg-green-500 py-2 px-6 border-0 rounded text-lg hover:bg-green-600 duration:300"><a href="mailto:pi@cheru.jp?subject=お問い合わせ">Contact</a></button>   
@@ -45,9 +44,9 @@ function App() {
               <p className="pb-2">
                 cheru's profile<br/>
                 <br/>
-                趣味はカラオケ, ゲーム, アニメなどです<br/>
-                ちいかわのモモンガが机の上に何匹か居ます<br/>
-                最近はreact appにお熱
+                趣味：カラオケ(100点出せます)/アニメ/ゲーム<br/>
+                ちいかわのモモンガ収集
+                ローカルLLMにハマり中<br/>
               </p>
           </div>
           <div>
@@ -82,12 +81,13 @@ function App() {
                     </div>
                     <div>
                     <p>
-                      広島市立大学 情報科学部 (2020/04~)<br/>
+                      広島市立大学 情報科学部 (2020/04~2024/03)<br/>
+                      広島市立大学院 情報科学研究科 (2024/04~)<br/>
                       <br/>
                       《学科/研究室》<br/>
-                      情報工学科 (2021/04~)<br/>
-                      ネットワーク科学研究室 (2022/09~)<br/>
-                      ※コミュニケーション講座ネットワーク科学グループに変更(2023/04~)<br/>
+                      情報工学科 (2021/04~2024/03)<br/>
+                      情報工学専攻 (2024/04~)<br/>
+                      先端ネットワーク・セキュリティ研究グループ (2022/09~)<br/>
                       <br/>
                       《サークル/クラブ》<br/>
                       広島市立大学吹奏楽部 (2020/09~2022/12)<br/>
@@ -162,12 +162,13 @@ function App() {
                     </div>
                     <div>
                     <p>
+                      GMO DevSecOpsThon 2024 (2024/04)<br/>
                       ニフティ株式会社インターン3days<br/>
                       (2023/08)<br/>
                       株式会社インターフェースインターン3days<br/>
                       (2022/09)<br/>
-                      広島地域IPv6推進委員会 IPv6勉強会
-                      (now)
+                      広島地域IPv6推進委員会 IPv6勉強会<br/>
+                      (2023/08~2024/03)<br/>
                     </p>
                     </div>
                 </div>
